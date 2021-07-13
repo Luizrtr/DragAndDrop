@@ -14,7 +14,6 @@ export default function List({ data }){
         </button> 
       )}
     </header>
-
     <ul>
       { data.cards.map(card => <Card key={card.id} data={card} />) }
     </ul>
